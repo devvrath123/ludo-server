@@ -8,6 +8,7 @@ Ludo (also known as *Pachisi*, *Petits Chevaux*, *Mensch ärgere Dich nicht* or 
 - Uses room-code system to create games; users can join any lobby that hasn't been started yet
 - Token-centric, **arrayless** board state representation for memory efficiency
 - Handles mid-game connection drops, allowing the user to rejoin in case of connection loss
+- Only allows certain origin patterns to connect so that any random user is prevented from connecting to the server. Origin patterns can be tweaked in the ```wsHandler()``` function in ```server.go```
 
 ## Build Instructions
 
