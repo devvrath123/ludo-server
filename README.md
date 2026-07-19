@@ -1,6 +1,6 @@
 # ludo-server
 
-Ludo (also known as *Pachisi*, *Petits Chevaux*, *Mensch ärgere Dich nicht* or *Parchís*) game server written in Go. Deployable on any VPS. Ludo is a classic board game where players have to roll a die to take their 4 tokens home, while knocking out your opponents' pieces by landing on them and sending them back to their starting square.
+Ludo game server written in Go. Deployable on any VPS. Ludo is a classic board game where players have to roll a die to take their 4 tokens home, while knocking out your opponents' pieces by landing on them and sending them back to their starting square. Ludo is also known as *Pachisi*, *Petits Chevaux*, *Mensch ärgere Dich nicht* or *Parchís*
 
 ## Some Features
 
