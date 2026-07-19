@@ -380,8 +380,6 @@ func wsHandler(w http.ResponseWriter, r *http.Request) {
 	conn, err := websocket.Accept(w, r, &websocket.AcceptOptions{
 		OriginPatterns: []string{
 			"localhost", "localhost:*",
-			"wails.localhost", "wails.localhost:*",
-			"wails",
 		},
 	})
 	if err != nil {
