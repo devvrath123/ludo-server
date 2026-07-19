@@ -18,7 +18,9 @@ Ludo game server written in Go. Deployable on any VPS. Ludo is a classic board g
 
 ## Build Instructions
 
-**Prerequisites:** You need to have the Go runtime installed on your respective platform (**v1.26.1+**). Go is **not required on the target platform** to deploy the server. The generated binaries are already in native machine code.
+**Prerequisites:** You need to have the Go runtime installed on your respective platform (**v1.26.1+**) to build the binaries. 
+
+Go is **not required on the target platform** to deploy the server. The generated binaries are already in native machine code.
 
 First, clone the repo and then enter the working directory:
 
