@@ -10,6 +10,12 @@ Ludo game server written in Go. Deployable on any VPS. Ludo is a classic board g
 - Handles mid-game connection drops, allowing the user to rejoin in case of connection loss
 - Only allows certain origin patterns to connect so that any random user is prevented from connecting to the server. Origin patterns can be tweaked in the ```wsHandler()``` function in ```server.go```
 
+## Project Structure
+
+- All game rules and logic are in ```game.go```
+- Network related code is in ```server.go```
+- Custom data structures (Go structs) are defined in ```structs.go```
+
 ## Build Instructions
 
 **Prerequisites:** You need to have the Go runtime installed on your respective platform (**v1.26.1+**). Go is **not required on the target platform** to deploy the server. The generated binaries are already in native machine code.
